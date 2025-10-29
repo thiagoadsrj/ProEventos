@@ -6,14 +6,15 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { EventosComponent } from './eventos/eventos.component';
 import { PalestrantesComponent } from './palestrantes/palestrantes.component';
+import { NavComponent } from './nav/nav.component';
 
 @NgModule({
-  declarations: [
+  declarations: [	
     AppComponent,
     EventosComponent,
     PalestrantesComponent,
-
-  ],
+      NavComponent
+   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
